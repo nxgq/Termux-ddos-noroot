@@ -19,8 +19,12 @@ This is a simple Distributed Denial of Service (DDoS) tool written in Python. It
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies (if any).
-3. Run the script with Python:
+3. please update the config by nano ddos.tool.py 
+4. Run the script with Python:
 
+
+best Settings
+thread: 1000 max ( if your using termux) and over 10k If your pc good.
 
 # The DDoS Tool does not require any external libraries and uses only built-in Python modules.
 # Therefore, the requirements.txt file is empty.
@@ -39,6 +43,7 @@ This is a simple Distributed Denial of Service (DDoS) tool written in Python. It
 ```bash
 git clone https://github.com/nxgq/Termux-ddos-noroot.git
 cd Termux-ddos-noroot
+nano ddos_tool.py
 python ddos_tool.py
 ```
 dev:alone 
