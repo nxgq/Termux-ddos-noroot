@@ -38,5 +38,6 @@ This is a simple Distributed Denial of Service (DDoS) tool written in Python. It
 
 ```bash
 git clone https://github.com/nxgq/Termux-ddos-noroot.git
+cd Termux-ddos-noroot
 python ddos_tool.py
 ```
