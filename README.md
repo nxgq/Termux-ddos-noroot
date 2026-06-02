@@ -41,3 +41,4 @@ git clone https://github.com/nxgq/Termux-ddos-noroot.git
 cd Termux-ddos-noroot
 python ddos_tool.py
 ```
+dev:alone 
