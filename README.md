@@ -20,3 +20,22 @@ This is a simple Distributed Denial of Service (DDoS) tool written in Python. It
 1. Clone the repository to your local machine.
 2. Install the required dependencies (if any).
 3. Run the script with Python:
+
+
+# The DDoS Tool does not require any external libraries and uses only built-in Python modules.
+# Therefore, the requirements.txt file is empty.
+
+# Built-in modules used in the script:
+# - os
+# - subprocess
+# - time
+# - socket
+# - threading
+# - signal
+# - re
+
+# No additional packages need to be installed.
+
+```bash
+git clone https://github.com/nxgq/Termux-ddos-noroot.git
+```
