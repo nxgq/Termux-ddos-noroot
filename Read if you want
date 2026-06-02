@@ -1,0 +1,26 @@
+``markdown
+Requirements
+
+Python 3.x: The script is written in Python 3 and requires a Python 3.x interpreter to run.
+
+No External Libraries: This tool does not rely on any external Python libraries. It uses only built-in modules such as os, subprocess, time, socket, threading, signal, and re.
+
+Target Specification: You must specify a target IP address or domain name. This can be done by changing the Target variable in the script.
+
+Port Specification: The default port is set to 80, which is the standard port for HTTP. You can change the Port variable if you need to target a different port.
+
+Thread Count: The number of threads used for the DDoS attack can be adjusted by changing the ThreadCount variable. More threads will increase the intensity of the attack.
+
+Payload Customization: The Payload variable allows you to customize the HTTP request sent to the target. You can include different headers or user agents by modifying this variable.
+
+User Agents: The randompayload function uses a list of common user agents to randomize the requests. You can add more user agents to this list to increase variability.
+
+Permissions: Ensure you have permission to test the target server, as this tool can significantly impact server performance and availability.
+
+Stopping the Attack: The script can be stopped by pressing CTRL+C`. This will gracefully terminate the threads and exit the program.
+
+Error Handling: The script includes basic error handling to manage network errors and other exceptions. However, it is recommended to test the script in a controlled environment before use.
+
+License: This project is licensed under the MIT License, which allows for both commercial and non-commercial use, with the condition that the original copyright and license notice are included in all copies or substantial portions of the software.
+
+By following these requirements, you can effectively use the DDoS Tool to conduct stress tests on servers and understand its capabilities.
