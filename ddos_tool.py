@@ -121,7 +121,7 @@ def run_ddos_with_random_payload():
 if __name__ == "__main__":
     signal.signal(signal.SIGINT, stop_script)
     
-    print(f"DDoS Tool v2.1")
+    print(f"DDoS Tool v2.1 made by nxgq ")
     print(f"Target: {Target}")
     print(f"Thread Count: {ThreadCount}")
     print(f"Press CTRL+C to stop.\n")
