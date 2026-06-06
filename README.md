@@ -1,4 +1,4 @@
-# DDoS Tool v2.1
+# DDoS Tool LARP v2.1
 
 ## Description
 
